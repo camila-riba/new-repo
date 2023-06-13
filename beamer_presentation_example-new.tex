@@ -1,0 +1,108 @@
+\documentclass[11pt]{beamer}
+\usetheme{JuanLesPins}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\author{François GUY, Camila Celeste RIBA PEREYRA}
+\title{A new introduction to Beamer with \LaTeX}
+%\setbeamercovered{transparent} 
+%\setbeamertemplate{navigation symbols}{} 
+\logo{}
+\institute{Université Savoie Mont Blanc} 
+\date{\today}
+\subject{\LaTeX formation} 
+\begin{document}
+
+
+\section{Introduction}
+\begin{frame}[plain]
+	\titlepage
+\end{frame}
+
+\begin{frame}
+\tableofcontents
+\end{frame}
+
+
+
+
+\section{Basic frames and images}
+\subsection{Blocs}
+\begin{frame}{Blocs 1/2}
+	\begin{center}
+		\includegraphics[width = .35\textwidth]{phd-isterre-poster-2023-fig.jpg}
+	\end{center}
+	\begin{block} {A standard block}
+		\begin{itemize}
+			\item Number one
+			\item Number two
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Blocs 2/2}
+	\begin{center}
+		\includegraphics[width = .35\textwidth]{phd-isterre-poster-2023-fig.jpg}
+	\end{center}
+	\begin{alertblock} {An alert block}
+		\begin{itemize}
+			\item Number one
+			\item Number two
+		\end{itemize}
+	\end{alertblock}
+\end{frame}
+
+\subsection{Frames with columns}
+\begin{frame}
+    \begin{columns}[c] % c = Vertical centering
+        \column{.6\textwidth}
+        \includegraphics[width = 1.\textwidth]{phd-isterre-poster-2023-fig.jpg}
+        \column{.4\textwidth}
+        \begin{block}{A standard block}
+            \begin{itemize}
+                \item Some data.
+                \item Some other data.
+            \end{itemize}
+        \end{block}
+
+        \begin{alertblock}{An alertblock}
+            \begin{itemize}
+                \item Some data.
+                \item Some other data.
+            \end{itemize}
+        \end{alertblock}
+    \end{columns}
+\end{frame}
+
+
+
+
+\section{Capybaras}
+\begin{frame}{Capybaras fun facts}
+	\begin{center}
+		\includegraphics[width = .50\textwidth]{capydonut.jpg}
+	\end{center}
+	\begin{block} {Did you know?}
+		\begin{itemize}
+			\item They can run as fast as 35 kph.
+			\item Their teeth grow constantly.
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Beware with capybaras!}
+	\begin{center}
+		\includegraphics[width = .60\textwidth]{studybara.jpg}
+	\end{center}
+	\begin{alertblock} {Did you know?}
+		\begin{itemize}
+			\pause
+			\item Capybara eat their own poop, ew!
+		\end{itemize}
+	\end{alertblock}
+\end{frame}
+
+\end{document}
