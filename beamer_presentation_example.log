@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.6.13)  13 JUN 2023 17:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.6.13)  13 JUN 2023 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,7 +1046,7 @@ resentation_example.toc) [2
 <phd-isterre-poster-2023-fig.jpg, id=137, 1009.8528pt x 1015.6344pt>
 File: phd-isterre-poster-2023-fig.jpg Graphic file (type jpg)
 <use phd-isterre-poster-2023-fig.jpg>
-Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 42
+Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 44
 .
 (pdftex.def)             Requested size: 107.55333pt x 108.15575pt.
  [3
@@ -1054,7 +1054,7 @@ Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 42
  <./phd-isterre-poster-2023-fig.jpg>]
 File: phd-isterre-poster-2023-fig.jpg Graphic file (type jpg)
 <use phd-isterre-poster-2023-fig.jpg>
-Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 54
+Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 56
 .
 (pdftex.def)             Requested size: 107.55333pt x 108.15575pt.
  [4
@@ -1062,42 +1062,33 @@ Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 54
 ]
 File: phd-isterre-poster-2023-fig.jpg Graphic file (type jpg)
 <use phd-isterre-poster-2023-fig.jpg>
-Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 76
+Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 78
 .
 (pdftex.def)             Requested size: 184.3758pt x 185.42535pt.
  [5
 
 ]
-File: phd-isterre-poster-2023-fig.jpg Graphic file (type jpg)
-<use phd-isterre-poster-2023-fig.jpg>
-Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 90
-.
-(pdftex.def)             Requested size: 107.55333pt x 108.15575pt.
+<capydonut.jpg, id=278, 801.99625pt x 662.475pt>
+File: capydonut.jpg Graphic file (type jpg)
+<use capydonut.jpg>
+Package pdftex.def Info: capydonut.jpg  used on input line 94.
+(pdftex.def)             Requested size: 153.64493pt x 126.91273pt.
  [6
 
-]
-File: phd-isterre-poster-2023-fig.jpg Graphic file (type jpg)
-<use phd-isterre-poster-2023-fig.jpg>
-Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 10
-7.
-(pdftex.def)             Requested size: 107.55333pt x 108.15575pt.
+ <./capydonut.jpg>]
+<studybara.jpg, id=320, 388.45125pt x 291.0875pt>
+File: studybara.jpg Graphic file (type jpg)
+<use studybara.jpg>
+Package pdftex.def Info: studybara.jpg  used on input line 106.
+(pdftex.def)             Requested size: 184.3758pt x 138.16583pt.
  [7
 
-]
-File: phd-isterre-poster-2023-fig.jpg Graphic file (type jpg)
-<use phd-isterre-poster-2023-fig.jpg>
-Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 10
-7.
-(pdftex.def)             Requested size: 107.55333pt x 108.15575pt.
+ <./studybara.jpg>]
+File: studybara.jpg Graphic file (type jpg)
+<use studybara.jpg>
+Package pdftex.def Info: studybara.jpg  used on input line 106.
+(pdftex.def)             Requested size: 184.3758pt x 138.16583pt.
  [8
-
-]
-File: phd-isterre-poster-2023-fig.jpg Graphic file (type jpg)
-<use phd-isterre-poster-2023-fig.jpg>
-Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 10
-7.
-(pdftex.def)             Requested size: 107.55333pt x 108.15575pt.
- [9
 
 ]
 \tf@nav=\write6
@@ -1109,26 +1100,45 @@ Package pdftex.def Info: phd-isterre-poster-2023-fig.jpg  used on input line 10
 \tf@snm=\write8
 \openout8 = `beamer_presentation_example.snm'.
 
- (beamer_presentation_example.aux)
-Package rerunfilecheck Info: File `beamer_presentation_example.out' has not cha
-nged.
-(rerunfilecheck)             Checksum: 5C0B556C72A616ED45F86C1BC269DA2F;780.
+
+(beamer_presentation_example.aux)
+
+Package rerunfilecheck Warning: File `beamer_presentation_example.out' has chan
+ged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `beamer_presentation_example.out':
+(rerunfilecheck)             Before: AC329427808987F74269EB3BE5AD9888;719
+(rerunfilecheck)             After:  DE24FCA8AEC316E6646DA51A616A0EAA;598.
  ) 
 Here is how much of TeX's memory you used:
- 23089 strings out of 476334
- 462111 string characters out of 5786555
- 1865382 words of memory out of 5000000
- 43001 multiletter control sequences out of 15000+600000
+ 23117 strings out of 476334
+ 462907 string characters out of 5786555
+ 1864382 words of memory out of 5000000
+ 43027 multiletter control sequences out of 15000+600000
  524481 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,18n,122p,426b,855s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ribaperc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmss10.pfb><C:/Users/ribaperc/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmss12.pfb><C:/Users/ribaperc/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on beamer_presentation_example.pdf (9 pages, 1703393 bytes).
+
+pdfTeX warning (dest): name{Navigation9} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Navigation10} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.4} has been referenced but does not exist,
+ replaced by a fixed one
+
+<C:/Users/ribaperc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmss10.pfb><C:/Users/ribaperc/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmss12.pfb><C:/Users/ribaperc/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmss8.pfb>
+Output written on beamer_presentation_example.pdf (8 pages, 1885936 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
+ 418 PDF objects out of 1000 (max. 8388607)
  25 named destinations out of 1000 (max. 500000)
- 450 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 442 words of extra memory for PDF output out of 10000 (max. 10000000)
 
