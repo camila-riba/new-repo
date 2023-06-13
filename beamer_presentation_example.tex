@@ -6,12 +6,13 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{booktabs}
 \author{François GUY, Camila Celeste RIBA PEREYRA}
 \title{A new introduction to Beamer with \LaTeX}
 %\setbeamercovered{transparent} 
 %\setbeamertemplate{navigation symbols}{} 
 \logo{}
-\institute{Université Savoie Mont Blanc} 
+\institute{Université Savoie Mont Blanc, IS-Terre / IREGE} 
 \date{\today}
 \subject{\LaTeX formation} 
 \begin{document}
@@ -27,83 +28,67 @@
 \end{frame}
 
 
-\section{Basic frames and images}
-\subsection{Blocs}
-\begin{frame}{Blocs 1/2}
+\section{Basic facts about ducks}
+\subsection{What you need to know immediately}
+\begin{frame}{What you need to know immediately 1/2}
 	\begin{center}
-		\includegraphics[width = .35\textwidth]{phd-isterre-poster-2023-fig.jpg}
+		\includegraphics[width = .4\textwidth]{runningduck.jpg}
 	\end{center}
-	\begin{block} {A standard block}
+	\begin{block} {Useful informations for your everyday life}
 		\begin{itemize}
-			\item Number one
-			\item Number two
+			\pause
+			\item Ducks are famous for their hunting skills. They can run up to a speed of 12 feet / second \cite{stewart1958locomotion}
+			\pause
+			\item They are also famous for their cuteness
 		\end{itemize}
 	\end{block}
 \end{frame}
 
-\begin{frame}{Blocs 2/2}
+\begin{frame}{What you need to know immediately 2/2}
 	\begin{center}
-		\includegraphics[width = .35\textwidth]{phd-isterre-poster-2023-fig.jpg}
+		\includegraphics[width = .5\textwidth]{duckfight.jpg}
 	\end{center}
 	\begin{alertblock} {An alert block}
 		\begin{itemize}
-			\item Number one
-			\item Number two
+			\item Duck can fight up to one opponent !
+			\item They are considered  the main cause of bread disappearance in most public parks of Europe
 		\end{itemize}
 	\end{alertblock}
 \end{frame}
 
-\subsection{Frames with columns}
-\begin{frame}
+\subsection{What you may want to know at one point in your life 1/2}
+\begin{frame}{What you may want to know at one point in your life 1/2}
     \begin{columns}[c] % c = Vertical centering
         \column{.6\textwidth}
-        \includegraphics[width = 1.\textwidth]{phd-isterre-poster-2023-fig.jpg}
+        \includegraphics[width = .8\textwidth]{sleepyduck.jpg}
         \column{.4\textwidth}
-        \begin{block}{A standard block}
+        \pause
+        \begin{block}{Ducklings physical attributes}
             \begin{itemize}
-                \item Some data.
-                \item Some other data.
+                \item They are even cuter than ducks.
+                \item They are even cuter when asleep.
             \end{itemize}
         \end{block}
-
-        \begin{alertblock}{An alertblock}
+		\pause
+        \begin{block}{Ducklings psychological attributes}
             \begin{itemize}
-                \item Some data.
-                \item Some other data.
+                \item Sometimes, they bond with a human...
+                \item ...Which makes them even more adorable.
             \end{itemize}
-        \end{alertblock}
+        \end{block}
     \end{columns}
 \end{frame}
 
-
-\section{Another more section}
-\begin{frame}{Another more section}
-	\begin{center}
-		\includegraphics[width = .35\textwidth]{phd-isterre-poster-2023-fig.jpg}
-	\end{center}
-	\begin{block} {A standard block}
-		\begin{itemize}
-			\item Number one
-			\item Number two
-		\end{itemize}
-	\end{block}
+\begin{frame}{What you may want to know at one point in your life 2/2}
+\begin{block}{Conclusion of this scientific demonstration}
+So yeah, basically, they're just fluffy and cute, but a bit dangerous. What else do you need to know really ?
+\end{block}
 \end{frame}
+\section{Bibliography}
 
-
-
-\section{Another section}
-\begin{frame}{Blocs 1/2}
-	\begin{center}
-		\includegraphics[width = .35\textwidth]{phd-isterre-poster-2023-fig.jpg}
-	\end{center}
-	\begin{block} {A standard block}
-		\begin{itemize}
-			\pause
-			\item Number one
-			\pause
-			\item Number two
-		\end{itemize}
-	\end{block}
+\begin{frame}{Bibliography}
+\bibliography{bibliography}
+\bibliographystyle{apalike}
 \end{frame}
 
 
