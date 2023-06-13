@@ -1,0 +1,7 @@
+\babel@toc {english}{}\relax 
+\beamer@sectionintoc {1}{Introduction}{1}{0}{1}
+\beamer@sectionintoc {2}{Basic frames and images}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Blocs}{3}{0}{2}
+\beamer@subsectionintoc {2}{2}{Frames with columns}{5}{0}{2}
+\beamer@sectionintoc {3}{Another more section}{6}{0}{3}
+\beamer@sectionintoc {4}{Another section}{7}{0}{4}
